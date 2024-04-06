@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build]
+
+[project]
+name = "factory_database"
+version = "0.0.1"
+authors = [
+  { name="Potapova Anna", email="po7254672546@yandex.ru" },
+]
+description = "Проект для обработки базы данных (В рамках выполнения курсовой работы по дисциплине \"Алгоритмические языки и программирование\")"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
+
