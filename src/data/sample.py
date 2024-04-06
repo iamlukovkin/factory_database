@@ -1,3 +1,4 @@
+# src/data/sample.py
 resources_info: dict[str, list[str, str, int, int]] = {
     '0001': ['Компьютер', 'шт', 100, 0],
     '0002': ['Монитор', 'шт', 10, 0],

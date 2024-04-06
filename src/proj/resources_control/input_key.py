@@ -1,3 +1,4 @@
+# src/proj/resources_control/input_key.py
 def input_key(database: dict, new_key_required: bool) -> str | None:
     """
     Запрашивает у пользователя ключ записи.

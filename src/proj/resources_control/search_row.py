@@ -1,3 +1,4 @@
+# src/proj/resources_control/search_row.py
 from .input_key import input_key
 
 

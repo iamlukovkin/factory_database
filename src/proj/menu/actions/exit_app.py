@@ -1,3 +1,4 @@
+# src/proj/menu/actions/exit_app.py
 def exit_app() -> None:
     """
     Завершает работу программы.

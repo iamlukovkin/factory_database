@@ -1,3 +1,4 @@
+# src/proj/menu/get_actions.py
 def get_actions(menu_actions: dict) -> str:
     """
     Получает выводимый пользователю список действий.

@@ -1,3 +1,4 @@
+# src/proj/resources_control/display_all.py
 import prettytable as pt
 
 

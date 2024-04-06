@@ -1,3 +1,4 @@
+# src/proj/menu/determine_action.py
 from . import actions
 from src.proj import resources_control
 
@@ -9,7 +10,7 @@ def determine_action(database: dict, action: int) -> tuple[dict, bool]:
     :param action: Номер действия
     :return: База данных и флаг завершения действия
     """
-    if action == 4:
+    if action == -1:
         return database, False
     else:
         if action == 0:
@@ -20,6 +21,8 @@ def determine_action(database: dict, action: int) -> tuple[dict, bool]:
             database = resources_control.delete_row(database)
         elif action == 3:
             resources_control.search_row(database)
+        elif action == 4:
+            resources_control.display_ordered_items(database)
         actions.wait_for_enter()
         actions.clear_screen()
     return database, True

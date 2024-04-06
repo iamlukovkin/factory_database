@@ -2,6 +2,7 @@ import prettytable as pt
 from .actions import wait_for_enter
 
 
+# src/proj/menu/start_print.py
 def start_print():
     table = pt.PrettyTable()
     table.add_column(fieldname='',
