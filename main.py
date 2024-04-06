@@ -4,6 +4,9 @@ from src.data import data
 
 def main(database: dict) -> None:
     is_continue: bool = True
+
+    start_print()
+
     while is_continue:
         print(get_actions(menu_actions))
         action: int = get_next_action(menu_actions)
